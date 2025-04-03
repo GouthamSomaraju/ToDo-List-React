@@ -1,3 +1,14 @@
+form{
+    display: flex;
+    /* flex-direction: column; */
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 20px; */
+    padding: 30px;
+    border-radius: 20px;
+    border: 2px solid #fff;
+}
 .list-Container{
     display: flex;
     /* flex-direction: column; */
@@ -5,4 +16,7 @@
     align-items: center;
     justify-content: center;
     margin-top: 20px;
+}
+#read:checked{
+    color: green;
 }
